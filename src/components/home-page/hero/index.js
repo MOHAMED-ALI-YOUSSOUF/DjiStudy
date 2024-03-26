@@ -37,8 +37,12 @@ const Hero = () => {
             <div className="text-center mb-5 fs-5">
               Avec <span>DjibStudy</span> 
               <p> Réviser pour votre Bac
-              Gratuitement.</p>
+              <span className="text-secondary"> Gratuitement.</span></p>
             </div>
+            <div className="col image d-sm-none">
+          {" "}
+          <img src="/images/hero/hero.jpg" alt="study" width={600} />
+        </div>
             <div className="d-flex flex-wrap gap-5 justify-content-center ">
               {series.map((serie) => (
                 <div
@@ -53,7 +57,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="col image">
+        <div className="col image d-none d-sm-block">
           {" "}
           <img src="/images/hero/hero.jpg" alt="study" width={600} />
         </div>
