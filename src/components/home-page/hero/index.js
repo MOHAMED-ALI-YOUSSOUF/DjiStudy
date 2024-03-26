@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
+import "./hero.scss"
 const Hero = () => {
   const series = [
     {
@@ -30,25 +30,36 @@ const Hero = () => {
   ];
 
   return (
-    <Container className="hero d-flex">
-      <div className="flex-3">
-        <div>
-          Avec <span>DjibStudy</span> <br /> Réviser pour votre bac
-          Gratuitement.
-        </div>
-        <div>
-          {series.map((serie) => (
-            <div key={serie.index} className="d-flex  align-items-center mb-3">
-              <a href="#" className="btn btn-outline-primary">
-                {serie.title}
-              </a>
+    <Container className="hero ">
+      <div className="row">
+        <div className="col">
+          <div className="">
+            <div className="text-center mb-5 fs-5">
+              Avec <span>DjibStudy</span> 
+              <p> Réviser pour votre Bac
+              Gratuitement.</p>
             </div>
-          ))}
+            <div className="d-flex flex-wrap gap-5 justify-content-center ">
+              {series.map((serie) => (
+                <div
+                  key={serie.index}
+                  className="d-flex  align-items-center mb-3 "
+                >
+                  <a href="#about" className="btn btn-outline-secondary    text-dark me-3">
+                    {serie.title}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="col image">
+          {" "}
+          <img src="/images/hero/hero.jpg" alt="study" width={600} />
         </div>
       </div>
-      <div className="flex-3">
-        <img src="/images/hero/hero.jpg" alt="study" />
-      </div>
+
+   
     </Container>
   );
 };

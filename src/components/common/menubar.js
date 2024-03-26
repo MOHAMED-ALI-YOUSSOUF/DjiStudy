@@ -34,7 +34,7 @@ const Menubar = () => {
 
   return (
     <Container className='d-flex justify-content-between align-items-center'>
-      <div>
+      <div className='mt-5'>
         <img src="/images/logo/logo.jpg" alt="logo"  width={100} height={100}/>
       </div>
       <div>

@@ -1,0 +1,30 @@
+.hero{
+    .row{
+        display: flex;
+
+    }
+    .col:nth-child(1){
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            width: 150px;
+        }
+        span{
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+    .col:nth-child(2){
+        flex: 3;  
+        display: flex;
+        justify-content: center;
+        img{
+          
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
