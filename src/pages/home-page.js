@@ -8,14 +8,14 @@ import Series from "../components/home-page/examen/serie";
 const HomePage = () => {
   return (
     <div>
-      <Spacer />
+      <Spacer height={30}/>
       <Hero />
-      <Spacer />
+      <Spacer height={50}/>
       <ActionButton />
-      <Spacer />
+      <Spacer height={50} />
       <About />
-      <Spacer />
       <Series />
+      <Spacer />
     </div>
   );
 };

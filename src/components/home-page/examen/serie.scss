@@ -1,0 +1,21 @@
+.serie{
+    button {
+    width: 200px !important;
+    color: black !important;
+    border-radius: 9999px !important;
+    -webkit-border-radius: 9999px !important;
+    -moz-border-radius: 9999px !important;
+    -ms-border-radius: 9999px !important;
+    -o-border-radius: 9999px !important;
+    .row{
+        height: 50hv;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 12px !important;
+        width: 130px !important;
+    }
+}
+}

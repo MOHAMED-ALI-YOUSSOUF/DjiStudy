@@ -5,8 +5,8 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out;
-    color: white;
-    z-index: 300;
+    color: rgb(250, 247, 247);
+    z-index: 3000;
     &.visible {
       opacity: 1;
       visibility: visible;

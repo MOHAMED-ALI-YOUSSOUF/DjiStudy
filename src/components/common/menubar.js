@@ -33,17 +33,19 @@ const Menubar = () => {
 
 
   return (
-    <Container className='d-flex justify-content-between align-items-center'>
-      <div className='mt-5'>
-        <img src="/images/logo/logo.jpg" alt="logo"  width={100} height={100}/>
+    <Container >
+      <div className='d-flex justify-content-between align-items-center mt-2'>
+      <div className='mt-'>
+        <img src="/images/logo/logo.png" alt="logo"  width={100} height={80}/>
       </div>
       <div>
-        <button className='btn btn-primary mx-3'>
+        <button className='btn btn-light mx-3'>
           inscris-toi
         </button>
-        <button className='btn btn-primary'>
+        <button className='btn btn-secondary'>
           connecter
         </button>
+      </div>
       </div>
 
     </Container>

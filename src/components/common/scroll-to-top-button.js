@@ -33,7 +33,7 @@ const ScrollToTopButton = () => {
 
   return (
     <Button
-      variant="primary"
+      variant="secondary"
       className={`scroll-to-top-button ${isVisible ? 'visible' : 'hidden'}`}
       onClick={scrollToTop}
     >

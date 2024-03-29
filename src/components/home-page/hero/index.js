@@ -33,17 +33,17 @@ const Hero = () => {
     <Container className="hero ">
       <div className="row">
         <div className="col">
-          <div className="">
-            <div className="text-center mb-5 fs-5">
+          <div >
+            <div className="text-center mb-1 fs-5">
               Avec <span>DjibStudy</span> 
               <p> Réviser pour votre Bac
               <span className="text-secondary"> Gratuitement.</span></p>
             </div>
-            <div className="col image d-sm-none">
+            <div className="col image d-sm-none mb-3">
           {" "}
-          <img src="/images/hero/hero.jpg" alt="study" width={600} />
+          <img src="/images/hero/hero.jpg" alt="study" />
         </div>
-            <div className="d-flex flex-wrap gap-5 justify-content-center ">
+            <div className="d-flex flex-wrap justify-content-center ">
               {series.map((serie) => (
                 <div
                   key={serie.index}

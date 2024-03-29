@@ -2,19 +2,19 @@ import React from "react";
 
 import { Card } from "react-bootstrap";
 
-const GalleryCard = ({ image, title }) => {
+const GalleryCard = ({ image, title, course }) => {
   return (
     <>
-      <Card className="activity-card">
-        <div className="image">
+      <Card >
           
           <Card.Img
-            variant="top"
+            variant="t"
             src={`/images/courses/${image}`}
             alt={title}
             className="img-fluid"
           />
-        </div>
+          <Card.Footer><h1>{course}</h1></Card.Footer>
+
       </Card>
     </>
   );
