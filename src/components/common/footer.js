@@ -10,7 +10,7 @@ const Footer = () => {
       <Container className="footer">
         <div>
         <Row className=" d-flex justify-content-center  align-items-start">
-          <Col md={5}  className="d-flex flex-column align-items-start ">
+          <Col col={5}  className="col-5 d-flex flex-column align-items-start ">
             <Image
               src="/images/logo/logo.png"
               alt="logo"
@@ -35,7 +35,7 @@ const Footer = () => {
 
           <Col
             md={6}
-            className="d-flex flex-column align-items-start justify-content-center "
+            className=" col-6 d-flex flex-column align-items-start justify-content-center "
           >
             <button className="btn btn-warning mb-2">
               S'inscrire gratuitement

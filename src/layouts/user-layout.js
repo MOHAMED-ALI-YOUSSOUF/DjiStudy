@@ -11,7 +11,7 @@ const UserLayout = () => {
       <Menubar />
       <Outlet />
       <Spacer/>
-      {/* <Footer /> */}
+      <Footer />
       <ScrollToTopButton />
     </>
   );

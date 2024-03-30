@@ -28,7 +28,7 @@ const Series = () => {
 
   return (
     <Container>
-      <h1 className="text-center fw-bold mb- fs-lg-5 fs-2">Decouvrez une <span className="text-secondary">MULTITUDE DE SUJETS</span> <br /> pour toutes les series</h1>
+      <h1 className="text-center fw-bold mb- fs-lg-1 ">Decouvrez une <span className="text-secondary">MULTITUDE DE SUJETS</span> <br /> pour toutes les series</h1>
       <hr />
       <div className="d-flex flex-column align-items-center justify-content-center gap-md-4 gap-4 serie">
         <div className="flex justify-content-evenly gap-4">

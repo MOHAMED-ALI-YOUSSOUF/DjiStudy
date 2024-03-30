@@ -5,17 +5,20 @@ import { Card } from "react-bootstrap";
 const GalleryCard = ({ image, title, course }) => {
   return (
     <>
-      <Card >
-          
-          <Card.Img
-            variant="t"
+   
+      <Card className="border-0">
+      <Card.Img
+            variant="to"
             src={`/images/courses/${image}`}
             alt={title}
             className="img-fluid"
           />
-          <Card.Footer><h1>{course}</h1></Card.Footer>
-
-      </Card>
+      <Card.Body>
+        <Card.Title>{course}</Card.Title>
+        
+      </Card.Body>
+    </Card>
+    
     </>
   );
 };
