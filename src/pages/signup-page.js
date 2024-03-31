@@ -7,7 +7,7 @@ import ProtectedRoute from "../components/login/ProtectedRoute";
 import { UserAuthContextProvider } from "../context/UserAuthContext";
 import LoginForm from "../components/login/LoginForm";
 
-function LoginPage() {
+function SignUpPage() {
   return (
     <Container style={{ width: "400px" }} className="login-page ">
       <Row>
@@ -22,7 +22,7 @@ function LoginPage() {
                   </ProtectedRoute>
                 }
               />
-              <Route path="/" element={<LoginForm />} />
+              <Route path="/" element={<Signup />} />
               <Route path="/signup" element={<Signup />} />
             </Routes>
           </UserAuthContextProvider>
@@ -32,4 +32,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default SignUpPage;
