@@ -14,6 +14,7 @@ import LoginForm from "../components/login/LoginForm";
 import Home from "../components/login/Home";
 import LoginPage from "../pages/login-page";
 import SignUpPage from "../pages/signup-page";
+import SerieS from "../components/series-pages/serie-s";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
       path: "login",
       element: <LoginPage/>,
+      }, 
+      {
+      path: "series/s/maths",
+      element: <SerieS/>,
       },
       {
       path: "signup",
