@@ -1,29 +1,27 @@
 [
     {
         "id": 1,
-        "title": "s",
+        "title": "2016",
         "course":"s/maths",
         "image": "course-01.jpg"
     },
     {
         "id": 2,
-        "title": "s",
+        "title": "2017",
         "course": "s-english",
         "image": "course-01.jpg"
     },
     {
         "id": 3,
-        "title": "s",
+        "title": "2018",
         "course": "physics",
-        "image": "course-01.jpg",
-        "level": "cv1.pdf"
+        "image": "course-01.jpg"
     },
     {
         "id": 4,
         "title": "s",
         "course": "chemistry",
-        "image": "course-01.jpg",
-        "level": "cv.pdf"
+        "image": "course-01.jpg"
     },
     {
         "id": 5,

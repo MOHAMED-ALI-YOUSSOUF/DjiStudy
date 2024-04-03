@@ -15,6 +15,7 @@ import Home from "../components/login/Home";
 import LoginPage from "../pages/login-page";
 import SignUpPage from "../pages/signup-page";
 import SerieS from "../components/series-pages/serie-s";
+import LoginLayout from "../layouts/login-layout";
 
 const router = createBrowserRouter([
   {
@@ -24,19 +25,13 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
-      }, 
-      {
-      path: "login",
-      element: <LoginPage/>,
-      }, 
-      {
-      path: "series/s/maths",
-      element: <SerieS/>,
       },
+
       {
-      path: "signup",
-      element: <SignUpPage/>,
+        path: "series/s/maths",
+        element: <SerieS />,
       },
+  
       {
         path: "unauthorized",
         element: <Error401Page />,
@@ -46,11 +41,22 @@ const router = createBrowserRouter([
         element: <Error404Page />,
       },
     ],
-
- 
-
-  }
+  },
+  // {
   
+  //   path: "/",
+  //   element:<LoginLayout /> ,
+  //   children:[
+  //     {
+  //       path: "login",
+  //       element : <LoginPage/>,
+  //   },
+  //   {
+  //     path: "signup",
+  //     element: <SignUpPage />,
+  //   },
+  // ]
+  // },
 ]);
 
 const AppRouter = () => {

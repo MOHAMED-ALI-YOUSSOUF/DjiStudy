@@ -1,8 +1,0 @@
-[
-    { "title": "Terminale S", "filter": "s" },
-    { "title": "Terminale ES", "filter": "es" },
-    { "title": "Terminale STG", "filter": "stg" },
-    { "title": "Terminale L", "filter": "l" },
-    { "title": "Fiche de cours", "filter": "fiche" },
-    { "title": "Le bon Conseil", "filter": "advice" }
-  ]

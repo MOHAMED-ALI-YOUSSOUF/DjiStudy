@@ -7,7 +7,7 @@ import ProtectedRoute from "../components/login/ProtectedRoute";
 import { UserAuthContextProvider } from "../context/UserAuthContext";
 import LoginForm from "../components/login/LoginForm";
 
-function SignUpPage() {
+function SignUpPages() {
   return (
     <Container style={{ width: "400px" }} className="login-page ">
       <Row>
@@ -32,4 +32,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage;
+export default SignUpPages;

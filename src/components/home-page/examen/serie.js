@@ -3,7 +3,6 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import seriesData from "../../../helpers/data/seriesData.json";
 import GalleryCard from "./gallery-card";
 import { Link } from "react-router-dom";
-import  buttonsData  from "../../../helpers/data/buttonsData.json";
 import "./serie.scss";
 const Series = () => {
   const [filteredSeries, setFilteredSeries] = useState([]);
@@ -18,7 +17,7 @@ const Series = () => {
     filterSeries("s");
   }, []);
 
-  const buttonsDat = [
+  const buttonsData = [
     { title: "Terminale S", filter: "s" },
     { title: "Terminale ES", filter: "es" },
     { title: "Terminale STG", filter: "stg" },

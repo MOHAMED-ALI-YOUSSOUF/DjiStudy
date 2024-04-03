@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import GoogleButton from "react-google-button";
 import { useUserAuth } from "../../context/UserAuthContext";
 
-const LoginForm = () => {
+const LoginForms = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -36,7 +36,7 @@ const LoginForm = () => {
 
   return (
     <>
-      <div className="p-4 box">
+      <div className="p-4 box shadow">
         <h2 className="mb-3">Login</h2>
 
         {error && <Alert variant="danger">{error}</Alert>}
@@ -73,11 +73,11 @@ const LoginForm = () => {
           />
         </div>
       </div>
-      <div className="p-4 box mt-3 text-center">
+      <div className="p-4 box mt-3 text-center shadow">
         Don't have an account? <Link to="/signup">Sign up</Link>
       </div>
     </>
   );
 };
 
-export default LoginForm;
+export default LoginForms;
