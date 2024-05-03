@@ -19,14 +19,6 @@ const Hero = () => {
       index: 4,
       title: "Términale STG",
     },
-    {
-      index: 5,
-      title: "Fiche Cours",
-    },
-    {
-      index: 6,
-      title: "le bon conseil",
-    },
   ];
 
   return (

@@ -37,7 +37,7 @@ const Sujets = ({ user }) => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <iframe src="/images/courses/cv.pdf" width="50%" height="300px"></iframe>
+      <iframe src="/images/courses/cv.pdf" width="100%" height="300px"></iframe>
     </Container>
  
   );

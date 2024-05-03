@@ -22,8 +22,6 @@ const Series = () => {
     { title: "Terminale ES", filter: "es" },
     { title: "Terminale STG", filter: "stg" },
     { title: "Terminale L", filter: "l" },
-    { title: "Fiche de cours", filter: "fiche" },
-    { title: "Le bon Conseil", filter: "advice" },
   ];
 
   return (
@@ -34,9 +32,9 @@ const Series = () => {
         toutes les series
       </h1>
       <hr />
-      <div className="d-flex flex-column align-items-center justify-content-center gap-md-4 gap-4 serie">
-        <div className="flex justify-content-evenly gap-4">
-          {buttonsData.slice(0, 3).map((button, index) => (
+      <div className="d-flex justify-content-center serie">
+        <div className="d-flex gap-3  flex-wrap">
+          {buttonsData.map((button, index) => (
             <Button
               key={index}
               variant="outline-success"
@@ -47,8 +45,8 @@ const Series = () => {
             </Button>
           ))}
         </div>
-        <div>
-          {buttonsData.slice(3).map((button, index) => (
+        {/* <div>
+          {buttonsData.slice(2).map((button, index) => (
             <button
               key={index}
               onClick={() => filterSeries(button.filter)}
@@ -57,14 +55,14 @@ const Series = () => {
               {button.title}
             </button>
           ))}
-        </div>
+        </div> */}
       </div>
 
       <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2">
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
             <Col sm={6} key={serie.id} className="shadow text-center">
-              <Link to={`/series/${serie.course}`}>
+              <Link to={`/series/${serie.title}`}>
                 <GalleryCard {...serie} />
               </Link>
             </Col>

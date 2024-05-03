@@ -9,14 +9,16 @@ const Footer = () => {
     <footer className="bg-secondary py-5">
       <Container className="footer">
         <div>
-        <Row className=" d-flex justify-content-center  align-items-start">
-          <Col col={5}  className="col-5 d-flex flex-column align-items-start ">
+        <Row className=" d-flex justify-content-center  align-items-center ">
+          <Col col={6}  className="col-5 d-flex flex-column align-items-center ">
+           <Link to={"/"}>
             <Image
               src="/images/logo/logo.png"
               alt="logo"
               width={150}
-              className="mb-3"
+              className="mb-3 shadow p-2"
             />
+            </Link>
             <div className="d-flex gap-2">
               {" "}
               <button className="btn btn-outline-dark text-white">
@@ -33,7 +35,7 @@ const Footer = () => {
             <span className="text-center mb-3">info@djibstudy.com</span>
           </Col>
 
-          <Col
+          {/* <Col
             md={6}
             className=" col-6 d-flex flex-column align-items-start justify-content-center "
           >
@@ -43,7 +45,7 @@ const Footer = () => {
             <button className="btn btn-outline-light">
               Découvrir les examens
             </button>
-          </Col>
+          </Col> */}
         </Row>
         </div>
       </Container>

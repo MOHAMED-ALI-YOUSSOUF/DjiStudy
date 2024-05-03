@@ -16,7 +16,7 @@ const HomePage = () => {
       <Spacer height={50} />
       <About />
       <Series />
-      <Sujets/>
+      {/* <Sujets/> */}
     </>
   );
 };

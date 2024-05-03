@@ -9,7 +9,7 @@ const UserLayout = () => {
   return (
     <>
       <Menubar />
-      <Outlet />
+      <Outlet  />
       <Spacer/>
       <Footer />
       <ScrollToTopButton />

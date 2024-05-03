@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "title": "2016",
-        "course":"s/maths",
+        "title": "s",
+        "year":"2023",
         "image": "course-01.jpg"
     },
     {
         "id": 2,
-        "title": "2017",
-        "course": "s-english",
+        "title": "s",
+        "year":"2022",
         "image": "course-01.jpg"
     },
     {
         "id": 3,
-        "title": "2018",
-        "course": "physics",
+        "title": "s",
+        "year":"2021",
         "image": "course-01.jpg"
     },
     {
         "id": 4,
         "title": "s",
-        "course": "chemistry",
+        "year":"2020",
         "image": "course-01.jpg"
     },
     {
