@@ -2,130 +2,58 @@
     {
         "id": 1,
         "title": "s",
-        "year":"2023",
-        "image": "course-01.jpg"
+        "year":"2020",
+        "image": "course-01.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 2,
         "title": "s",
-        "year":"2022",
-        "image": "course-01.jpg"
+        "year":"2020- Second tour",
+        "image": "course-01.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 3,
-        "title": "s",
+        "title": "es",
         "year":"2021",
-        "image": "course-01.jpg"
+        "image": "course-01.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 4,
-        "title": "s",
+        "title": "es",
         "year":"2020",
-        "image": "course-01.jpg"
+        "image": "course-01.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 5,
-        "title": "es",
-        "course": "biology",
-        "image": "course-02.jpg"
+        "title": "stg",
+        "year":"2023",
+        "image": "course-02.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 6,
-        "title": "es",
-        "course": "geography",
-        "image": "course-02.jpg"
+        "title": "stg",
+        "year":"2023",
+        "image": "course-02.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 7,
-        "title": "es",
-        "course": "history",
-        "image": "course-02.jpg"
+        "title": "l",
+        "year":"2023",
+        "image": "course-02.jpg",
+        "pdfURL": "cv.pdf"
     },
     {
         "id": 8,
-        "title": "es",
-        "course": "art",
-        "image": "course-02.jpg"
-    },
-    {
-        "id":9,
-        "title":"stg",
-        "course":"mathematics",
-        "image":"l.jpg"
-    },
-    {
-        "id":10,
-        "title":"stg",
-        "image":"fiche.jpg"
-    },
-    {
-        "id":11,
-        "title":"stg",
-        "image":"course-01.jpg"
-    },
-    {
-        "id":12,
-        "title":"stg",
-        "image":"course-02.jpg"
-    },
-    {
-        "id":13,
-        "title":"l",
-        "image":"course-03.jpg"
-    },
-    {
-        "id":14,
-        "title":"l",
-        "image":"l.jpg"
-    },
-    {
-        "id":15,
-        "title":"l",
-        "image":"fiche.jpg"
-    },
-    {
-        "id":16,
-        "title":"l",
-        "image":"advice.jpg"
-    },
-    {
-        "id": 17,
-        "title": "fiche",
-        "image": "course-02.jpg"
-    },
-    {
-        "id":18,
-        "title":"fiche",
-        "image":"l.jpg"
-    },
-    {
-        "id":19,
-        "title":"fiche",
-        "image":"fiche.jpg"
-    },
-    {
-        "id":20,
-        "title":"fiche",
-        "image":"course-01.jpg"
-    },
-    {
-        "id":21,
-        "title":"advice",
-        "image":"course-02.jpg"
-    },
-    {
-        "id":22,
-        "title":"advice",
-        "image":"course-03.jpg"
-    },
-    {
-        "id":23,
-        "title":"advice",
-        "image":"l.jpg"
-    },
-    {
-        "id":24,
-        "title":"advice",
-        "image":"fiche.jpg"
+        "title": "l",
+        "year":"2023",
+        "image": "course-02.jpg",
+        "pdfURL": "cv.pdf"
     }
+    
 ]

@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="row">
         <div className="col">
           <div >
-            <div className="text-center mb-1 fs-5">
+            <div className="text-center mb-1  ">
               Avec <span>DjibStudy</span> 
               <p> Réviser pour votre Bac
               <span className="text-secondary"> Gratuitement.</span></p>

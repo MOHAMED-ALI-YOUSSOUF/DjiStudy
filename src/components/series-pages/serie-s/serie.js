@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import Series from "../../home-page/examen/serie";
-import { Link } from "react-router-dom";
-import GalleryCard from "../../home-page/examen/gallery-card";
-import seriesData from "../../../helpers/data/seriesData.json";
-const SerieS = () => {
+import year from "../../../helpers/data/year.json";
+import Subject from "./subject";
+const Serie = () => {
   const [filteredSeries, setFilteredSeries] = useState([]);
 
   const filterSeries = (title) => {
-    const filtered = seriesData.filter((serie) => serie.title === title);
+    const filtered = year.filter((serie) => serie.title === title);
     setFilteredSeries(filtered);
   };
 
@@ -27,11 +25,10 @@ const SerieS = () => {
   return (
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
-   Serie{" "}
-        <span className="text-secondary">S</span>
+        Serie <span className="text-secondary">S</span>
       </h1>
       <hr />
-      <div className="d-flex justify-content-center serie">
+      <div className="d-flex justify-content-center">
         <div className="d-flex gap-3  flex-wrap">
           {buttonsData.map((button, index) => (
             <Button
@@ -46,18 +43,17 @@ const SerieS = () => {
         </div>
       </div>
 
-      <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2">
+      <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2 d-flex justify-content-center">
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
             <Col sm={6} key={serie.id} className="shadow text-center">
-              <Link to={`/series/${serie.course}`}>
-                <GalleryCard {...serie} />
-              </Link>
+              <Subject {...serie} />
             </Col>
           ))}
       </Row>
+     
     </Container>
   );
 };
 
-export default SerieS;
+export default Serie;

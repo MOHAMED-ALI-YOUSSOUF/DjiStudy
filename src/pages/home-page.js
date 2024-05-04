@@ -5,6 +5,7 @@ import ActionButton from "../components/home-page/action-button";
 import About from "../components/home-page/about";
 import Series from "../components/home-page/examen/serie";
 import Sujets from "../components/series-pages/serie-l/sujet";
+import Subject from "../components/series-pages/serie-s/subject";
 
 const HomePage = () => {
   return (
@@ -16,7 +17,8 @@ const HomePage = () => {
       <Spacer height={50} />
       <About />
       <Series />
-      {/* <Sujets/> */}
+      <Subject pdfURL="cv.pdf"/>
+
     </>
   );
 };
