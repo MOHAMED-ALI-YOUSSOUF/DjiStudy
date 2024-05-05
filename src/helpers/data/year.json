@@ -3,27 +3,31 @@
         "id": 1,
         "title": "s",
         "year":"2020",
+        "content": "2020",
         "image": "course-01.jpg",
-        "pdfURL": "cv.pdf"
+        "pdfURL": "/pdfs/2020.pdf"
     },
     {
         "id": 2,
         "title": "s",
-        "year":"2020 - Second tour",
+        "year":"2020",
+        "content":"2020 - Corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "cv copy.pdf"
+        "pdfURL": "/pdfs/2020-2e-tour.pdf"
     },
     {
         "id": 3,
-        "title": "es",
-        "year":"2021",
+        "title": "s",
+        "year":"2020",
+        "content":"2020-second tour",
         "image": "course-02.jpg",
-        "pdfURL": "cv copy.pdf"
+        "pdfURL": "/pdfs/2020-2e-tour.pdf"
     },
     {
         "id": 4,
-        "title": "es",
-        "year":"2021 - seconde tour",
+        "title": "s",
+        "year":"2020",
+        "content":"2020 - second tour - Corrigé",
         "image": "course-02.jpg",
         "pdfURL": "cv.pdf"
     },

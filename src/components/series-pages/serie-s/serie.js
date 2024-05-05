@@ -3,15 +3,23 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import year from "../../../helpers/data/year.json";
 import { useParams } from "react-router-dom";
 import SerieCard from "./serie-card";
+import Subject from "./subject";
+import { useRef } from "react";
 
 const Serie = ({ serieType }) => {
   const [filteredSeries, setFilteredSeries] = useState([]);
-
-
+  const [selectedSerie, setSelectedSerie] = useState(null);
+  const pdfRef = useRef(null);
   const { slug } = useParams();
+  
   const filterSeries = (title) => {
-    const filtered = year.filter((serie) => serie.title === title);
+    const filtered = year.filter((serie) => serie.year === title);
     setFilteredSeries(filtered);
+  };
+
+  const handleSerieClick = (serie) => {
+    setSelectedSerie(serie);
+    pdfRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -20,10 +28,11 @@ const Serie = ({ serieType }) => {
   }, []);
 
   const buttonsData = [
-    { title: "2020", filter: "s" },
-    { title: "2021", filter: "es" },
-    { title: "2022", filter: "stg" },
-    { title: "2023", filter: "l" },
+    { title: "2020", filter: "2020" },
+    { title: "2021", filter: "2021" },
+    { title: "2022", filter: "2022" },
+    { title: "2023", filter: "2023" },
+
   ];
 
   return (
@@ -52,10 +61,14 @@ const Serie = ({ serieType }) => {
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
             <Col sm={6} key={serie.id} className="shadow text-center">
-              <SerieCard {...serie} />
+              <div onClick={() => handleSerieClick(serie)} className="serie-card-button"> 
+                <SerieCard {...serie} />
+              </div>
             </Col>
           ))}
       </Row>
+      <div ref={pdfRef}>
+      {selectedSerie && <Subject pdfURL={selectedSerie.pdfURL} />}</div>
     </Container>
   );
 };

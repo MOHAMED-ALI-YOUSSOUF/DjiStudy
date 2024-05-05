@@ -3,7 +3,7 @@ import React from 'react';
 const Subject = ({ pdfURL }) => {
   return (
     <div>
-      <iframe src={pdfURL} title="PDF Viewer" width="100%" height="500px"></iframe>
+      <iframe src={pdfURL} title="PDF Viewer" width="100%" height="600px"></iframe>
     </div>
   );
 }

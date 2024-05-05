@@ -2,16 +2,11 @@ import React from "react";
 
 import { Card } from "react-bootstrap";
 
-const SerieCard = ({ pdfURL, image, year, title }) => {
-  const handleClick = () => {
-    // Construire l'URL du fichier PDF à partir du nom de fichier
-    const pdfURLs = `/pdfs/${pdfURL}`;
-    // Ouvrir le PDF lors du clic
-    window.open(pdfURLs, "_blank");
-  };
+const SerieCard = ({  image, content, title }) => {
+
   return (
     <>
-      <Card className="border-0" onClick={handleClick}>
+      <Card className="border-0" >
         <Card.Img
           variant="to"
           src={`/images/courses/${image}`}
@@ -19,7 +14,7 @@ const SerieCard = ({ pdfURL, image, year, title }) => {
           className="img-fluid"
         />
         <Card.Body>
-          <Card.Title>{year}</Card.Title>
+          <Card.Title>{content}</Card.Title>
         </Card.Body>
       </Card>
     </>
