@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import year from "../../../helpers/data/year.json";
-import Subject from "./subject";
-const Serie = () => {
+import { useParams } from "react-router-dom";
+import SerieCard from "./serie-card";
+
+const Serie = ({ serieType }) => {
   const [filteredSeries, setFilteredSeries] = useState([]);
 
+
+  const { slug } = useParams();
   const filterSeries = (title) => {
     const filtered = year.filter((serie) => serie.title === title);
     setFilteredSeries(filtered);
@@ -25,11 +29,12 @@ const Serie = () => {
   return (
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
-        Serie <span className="text-secondary">S</span>
+        Serie
+        <span className="text-secondary">{`{${slug.toUpperCase()}}`}</span>
       </h1>
       <hr />
-      <div className="d-flex justify-content-center">
-        <div className="d-flex gap-3  flex-wrap">
+      <div >
+        <div className="d-flex gap-3  flex-wrap justify-content-center">
           {buttonsData.map((button, index) => (
             <Button
               key={index}
@@ -47,11 +52,10 @@ const Serie = () => {
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
             <Col sm={6} key={serie.id} className="shadow text-center">
-              <Subject {...serie} />
+              <SerieCard {...serie} />
             </Col>
           ))}
       </Row>
-     
     </Container>
   );
 };

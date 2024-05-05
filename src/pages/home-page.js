@@ -3,9 +3,7 @@ import Hero from "../components/home-page/hero";
 import Spacer from "../components/common/spacer";
 import ActionButton from "../components/home-page/action-button";
 import About from "../components/home-page/about";
-import Series from "../components/home-page/examen/serie";
-import Sujets from "../components/series-pages/serie-l/sujet";
-import Subject from "../components/series-pages/serie-s/subject";
+import Series from "../components/home-page/examen/series";
 
 const HomePage = () => {
   return (
@@ -17,7 +15,6 @@ const HomePage = () => {
       <Spacer height={50} />
       <About />
       <Series />
-      <Subject pdfURL="cv.pdf"/>
 
     </>
   );

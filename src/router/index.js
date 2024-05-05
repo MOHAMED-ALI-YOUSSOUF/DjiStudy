@@ -4,7 +4,6 @@ import UserLayout from "../layouts/user-layout";
 import HomePage from "../pages/home-page";
 import Error404Page from "../pages/errors/error-404";
 import Error401Page from "../pages/errors/error-401";
-import SerieS from "../components/series-pages/serieS";
 import Serie from "../components/series-pages/serie-s/serie";
 
 const router = createBrowserRouter([
@@ -18,7 +17,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "series/s",
+        path: "series/:slug",
         element: <Serie />,
       },
 

@@ -2,11 +2,16 @@ import React from "react";
 
 import { Card } from "react-bootstrap";
 
-const GalleryCard = ({ image, year, title }) => {
-
+const SerieCard = ({ pdfURL, image, year, title }) => {
+  const handleClick = () => {
+    // Construire l'URL du fichier PDF à partir du nom de fichier
+    const pdfURLs = `/pdfs/${pdfURL}`;
+    // Ouvrir le PDF lors du clic
+    window.open(pdfURLs, "_blank");
+  };
   return (
     <>
-      <Card className="border-0" >
+      <Card className="border-0" onClick={handleClick}>
         <Card.Img
           variant="to"
           src={`/images/courses/${image}`}
@@ -21,4 +26,4 @@ const GalleryCard = ({ image, year, title }) => {
   );
 };
 
-export default GalleryCard;
+export default SerieCard;
