@@ -14,7 +14,7 @@ const GalleryCard = ({ image, year, title }) => {
           className="img-fluid"
         />
         <Card.Body>
-          <Card.Title>{year}</Card.Title>
+          <Card.Title>Voir par Année</Card.Title>
         </Card.Body>
       </Card>
     </>

@@ -26,14 +26,14 @@ const Series = () => {
 
   return (
     <Container>
-      <h1 className="text-center fw-bold mb- fs-lg-1 ">
-        Decouvrez une{" "}
-        <span className="text-secondary">MULTITUDE DE SUJETS</span> <br /> pour
-        toutes les series
+     <h1 className="text-center fw-bold mb- fs-lg-1 ">
+        Découvrez une{" "}
+        <span className="text-secondary">MULTITUDE DE SUJETS MATHÉMATIQUES</span> <br /> pour
+        toutes les séries
       </h1>
       <hr />
       <div className="d-flex justify-content-center serie">
-        <div className="d-flex gap-3  flex-wrap">
+        <div className="d-flex gap-3  flex-wrap justify-content-center">
           {buttonsData.map((button, index) => (
             <Button
               key={index}
@@ -58,10 +58,10 @@ const Series = () => {
         </div> */}
       </div>
 
-      <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2">
+      <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2 d-flex justify-content-center">
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
-            <Col sm={6} key={serie.id} className="shadow text-center">
+            <Col sm={6} key={serie.id} className="shadow text-center d-flex justify-content-center">
               <Link to={`/series/${serie.title}`}>
                 <GalleryCard {...serie} />
               </Link>

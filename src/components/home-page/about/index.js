@@ -7,12 +7,12 @@ const About = () => {
     <Container className="about " id="about">
       <div className="container text-center">
         <h1 className="mb-3">
-        Bienvenue sur <br /> Dji<span>Study</span>
+        Bienvenue sur <br /> Djib<span>Study</span>
         </h1>
         <p>
           la plateforme qui rend la révision pour le bac <br />
           <span className="text-secondary fw-bold">
-            AGREABLE ET PASSIONNANTE!
+          AGRÉABLE ET PASSIONNANTE!
           </span>
         </p>
         <hr />
@@ -27,7 +27,7 @@ const About = () => {
           confiante.
         </p>
         <p>
-        <span className="text-secondary fw-bold">DjibStudy</span> rassemble une multitude de sujets avec corrections provenant
+        <span className="text-secondary fw-bold">DjibStudy</span> rassemble une multitude de sujets Mathématiques provenant
           des années précédentes à Djibouti. Que vous soyez en série
          <span>  scientifique, littéraire, économique</span> ou autre, nous disposons des
           ressources dont vous avez besoin pour réussir votre terminale.
@@ -36,10 +36,10 @@ const About = () => {
           Affrontez les défis de la terminale avec sincérité et assurance grâce
           à  <span className="text-secondary fw-bold">DjibStudy</span>.{" "}
         </p>
-        <p>
+        {/* <p>
           Rejoignez-nous dès aujourd'hui pour une préparation optimale et une
           réussite garantie !
-        </p>
+        </p> */}
       </div>
     </Container>
   );

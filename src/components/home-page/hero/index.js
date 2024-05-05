@@ -6,22 +6,22 @@ const Hero = () => {
   const series = [
     {
       index: 1,
-      title: "Términale S",
+      title: "Terminale S",
       serie: "S",
     },
     {
       index: 2,
-      title: "Términale ES",
+      title: "Terminale ES",
       serie: "ES",
     },
     {
       index: 3,
-      title: "Términale L",
+      title: "Terminale L",
       serie: "L",
     },
     {
       index: 4,
-      title: "Términale STG",
+      title: "Terminale STG",
       serie: "STG",
     },
   ];
@@ -45,9 +45,8 @@ const Hero = () => {
             </div>
             <div className="d-flex flex-wrap justify-content-center ">
               {series.map((serie) => (
-                <Link to={`/series/${serie.serie}`}>
+                <Link to={`/series/${serie.serie}`}  key={serie.index}>
                   <div
-                    key={serie.index}
                     className="d-flex  align-items-center mb-3 "
                   >
                     <button className="btn btn-outline-secondary    text-dark me-3">

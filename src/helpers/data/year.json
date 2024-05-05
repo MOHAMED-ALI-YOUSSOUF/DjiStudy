@@ -17,42 +17,42 @@
         "id": 3,
         "title": "es",
         "year":"2021",
-        "image": "course-01.jpg",
+        "image": "course-02.jpg",
         "pdfURL": "cv copy.pdf"
     },
     {
         "id": 4,
         "title": "es",
         "year":"2021 - seconde tour",
-        "image": "course-01.jpg",
+        "image": "course-02.jpg",
         "pdfURL": "cv.pdf"
     },
     {
         "id": 5,
         "title": "stg",
         "year":"2022",
-        "image": "course-02.jpg",
+        "image": "course-03.jpg",
         "pdfURL": "cv.pdf"
     },
     {
         "id": 6,
         "title": "stg",
         "year":"2022 - seconde tour",
-        "image": "course-02.jpg",
+        "image": "course-03.jpg",
         "pdfURL": "cv.pdf"
     },
     {
         "id": 7,
         "title": "l",
         "year":"2023",
-        "image": "course-02.jpg",
+        "image": "course-04.jpg",
         "pdfURL": "cv.pdf"
     },
     {
         "id": 8,
         "title": "l",
         "year":"2023 - seconde tour",
-        "image": "course-02.jpg",
+        "image": "course-04.jpg",
         "pdfURL": "cv.pdf"
     }
     
