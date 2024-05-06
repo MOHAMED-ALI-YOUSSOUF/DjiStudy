@@ -24,7 +24,7 @@ const Serie = ({ serieType }) => {
 
   useEffect(() => {
     // Filtrer la première série par défaut
-    filterSeries("s");
+    filterSeries("2020");
   }, []);
 
   const buttonsData = [
@@ -38,7 +38,7 @@ const Serie = ({ serieType }) => {
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
       Série
-        <span className="text-secondary"> S</span>
+        <span className="text-secondary"> S - Math</span> 
       </h1>
       <hr />
       <div>

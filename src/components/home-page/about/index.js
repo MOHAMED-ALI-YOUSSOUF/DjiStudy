@@ -27,7 +27,7 @@ const About = () => {
           confiante.
         </p>
         <p>
-        <span className="text-secondary fw-bold">DjibStudy</span> rassemble une multitude de sujets Mathématiques provenant
+        <span className="text-secondary fw-bold">DjibStudy</span> rassemble une multitude de sujets en Mathématiques avec correction provenant
           des années précédentes à Djibouti. Que vous soyez en série
          <span>  scientifique, littéraire, économique</span> ou autre, nous disposons des
           ressources dont vous avez besoin pour réussir votre terminale.

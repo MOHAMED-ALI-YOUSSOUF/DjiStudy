@@ -1,4 +1,7 @@
 .hero{
+    a {
+        text-decoration: none !important; // Pour annuler le soulignement par défaut des liens
+      }
     .row{
         display: flex;
 
@@ -10,6 +13,9 @@
         align-items: center;
         button{
             width: 150px;
+            &:hover{
+                color: white !important;
+            }
         }
         span{
             font-weight: bold;

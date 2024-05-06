@@ -5,7 +5,7 @@
         "year":"2020",
         "content": "2020 - pratique",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-l/2020-pratique.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2020-pratique.pdf"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "year":"2020",
         "content":"2020 - pratique - corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-l/2020-pratique-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "year":"2020",
         "content":"2020 - pratique-1",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-l/2020-pratique-1.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2020-pratique-1.pdf"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "year":"2020",
         "content":"2020 - pratique-1 - corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-l/2020-pratique-1-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "year":"2020",
         "content":"2020 - second tour ",
         "image": "course-02.jpg",
-        "pdfURL": "/pdfs/serie-l/2020-second-tour.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2020-second-tour.pdf"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "year":"2020",
         "content":"2020 - second tour - corrigé",
         "image": "course-02.jpg",
-        "pdfURL": "pdfs/serie-l/2020-second-tour-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "year":"2021",
         "content":"2021 - pratique",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-l/2021-pratique.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2021-pratique.pdf"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "year":"2021",
         "content":"2021 - pratique - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-l/2021-pratique-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "year":"2021",
         "content":"2021 - pratique-1 ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2021-pratique-1r.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2021-pratique-1.pdf"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "year":"2021",
         "content":"2021 - second tour ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2021-second-tour.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2021-second-tour.pdf"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "year":"2021",
         "content":"2021 - second tour - corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-l/2021-second-tour-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "year":"2022",
         "content":"2022 - pratique",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-pratique.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2022-pratique.pdf"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "year":"2022",
         "content":"2022 - pratique - corrigé ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-pratique-corrigé.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2022-pratique-corrigé.pdf"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "year":"2022",
         "content":"2022 - pratique-1  ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-pratique-1.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "year":"2022",
         "content":"2022 pratique-1 - corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-pratique-1-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     }
     ,
     {
@@ -126,7 +126,7 @@
         "year":"2022",
         "content":"2022 - second tour",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-second-tour.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2022-second-tour.pdf"
     }
     ,
     {
@@ -135,7 +135,7 @@
         "year":"2022",
         "content":"2022 - second tour - corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2022-second-tour-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     }
     ,
     {
@@ -144,7 +144,7 @@
         "year":"2023",
         "content":"2023 - pratique",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2023-pratique.pdf"
+        "pdfURL": "/pdfs/serie-l/Série-L 2023-pratique.pdf"
     }
     ,
     {
@@ -153,7 +153,7 @@
         "year":"2023",
         "content":"2023 - pratique - corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-l/2023-pratique-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     }
     
 

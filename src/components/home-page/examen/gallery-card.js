@@ -2,7 +2,7 @@ import React from "react";
 
 import { Card } from "react-bootstrap";
 
-const GalleryCard = ({ image, year, title }) => {
+const GalleryCard = ({ image, title }) => {
 
   return (
     <>
@@ -14,7 +14,7 @@ const GalleryCard = ({ image, year, title }) => {
           className="img-fluid"
         />
         <Card.Body>
-          <Card.Title>Voir par Année</Card.Title>
+          <span>Voir par Année</span>
         </Card.Body>
       </Card>
     </>

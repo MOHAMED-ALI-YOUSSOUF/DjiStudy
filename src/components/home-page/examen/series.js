@@ -20,7 +20,7 @@ const Series = () => {
   const buttonsData = [
     { title: "Terminale S", filter: "s" },
     { title: "Terminale ES", filter: "es" },
-    { title: "Terminale STG", filter: "stg" },
+    { title: "Terminale SG", filter: "sg" },
     { title: "Terminale L", filter: "l" },
   ];
 
@@ -45,17 +45,7 @@ const Series = () => {
             </Button>
           ))}
         </div>
-        {/* <div>
-          {buttonsData.slice(2).map((button, index) => (
-            <button
-              key={index}
-              onClick={() => filterSeries(button.filter)}
-              className="mx-2 btn-lg  btn btn-outline-secondary "
-            >
-              {button.title}
-            </button>
-          ))}
-        </div> */}
+      
       </div>
 
       <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 m-2 d-flex justify-content-center">

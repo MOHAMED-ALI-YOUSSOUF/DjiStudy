@@ -1,7 +1,14 @@
+a{
+    text-decoration: none !important;
+}
 .serie{
+   
     button {
     width: 200px !important;
-    color: black !important;  
+    color: black !important; 
+    &:hover{
+        color: white !important;
+    } 
     .row{
         height: 50hv;
     }

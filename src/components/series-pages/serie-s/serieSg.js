@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import yearStg from "../../../helpers/data/year-stg.json";
+import yearsg from "../../../helpers/data/year-sg.json";
 // import { useParams } from "react-router-dom";
 import SerieCard from "./serie-card";
 import Subject from "./subject";
 import { useRef } from "react";
 
-const SerieStg = () => {
+const SerieSg = () => {
   const [filteredSeries, setFilteredSeries] = useState([]);
   const [selectedSerie, setSelectedSerie] = useState(null);
   const pdfRef = useRef(null);
   // const { slug } = useParams();
 
   const filterSeries = (title) => {
-    const filtered = yearStg.filter((serie) => serie.year === title);
+    const filtered = yearsg.filter((serie) => serie.year === title);
     setFilteredSeries(filtered);
   };
 
@@ -38,7 +38,7 @@ const SerieStg = () => {
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
         Série
-        <span className="text-secondary"> STG</span>
+        <span className="text-secondary"> SG - Math</span>
       </h1>
       <hr />
       <div>
@@ -76,4 +76,4 @@ const SerieStg = () => {
   );
 };
 
-export default SerieStg;
+export default SerieSg;

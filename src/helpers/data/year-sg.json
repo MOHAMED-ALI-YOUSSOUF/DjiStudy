@@ -1,116 +1,116 @@
 [
     {
         "id": 1,
-        "title": "stg",
+        "title": "sg",
         "year":"2020",
         "content": "2020",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-stg/2020.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2020.pdf"
     },
     {
         "id": 2,
-        "title": "stg",
+        "title": "sg",
         "year":"2020",
         "content":"2020 - Corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-stg/2020-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 3,
-        "title": "stg",
+        "title": "sg",
         "year":"2020",
         "content":"2020-second tour",
         "image": "course-02.jpg",
-        "pdfURL": "/pdfs/serie-stg/2020-second-tour.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2020-second-tour.pdf"
     },
     {
         "id": 4,
-        "title": "stg",
+        "title": "sg",
         "year":"2020",
         "content":"2020 - second tour - Corrigé",
         "image": "course-02.jpg",
-        "pdfURL": "pdfs/serie-stg/2020-second-tour-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 5,
-        "title": "stg",
+        "title": "sg",
         "year":"2021",
         "content":"2021",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-stg/2021.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2021.pdf"
     },
     {
         "id": 6,
-        "title": "stg",
+        "title": "sg",
         "year":"2021",
         "content":"2021 - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-stg/2021-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 7,
-        "title": "stg",
+        "title": "sg",
         "year":"2021",
         "content":"2021 - second tour ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-stg/2021-second-tour.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 8,
-        "title": "stg",
+        "title": "sg",
         "year":"2021",
         "content":"2021 - second tour - Corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-stg/2021-second-tour-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     },
     {
         "id": 9,
-        "title": "stg",
+        "title": "sg",
         "year":"2022",
         "content":"2022",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-stg/2022.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2022.pdf"
     },
     {
         "id": 10,
-        "title": "stg",
+        "title": "sg",
         "year":"2022",
         "content":"2022 - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-stg/2022-corrigé.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2022-corrigé.pdf"
     },
     {
         "id": 11,
-        "title": "stg",
+        "title": "sg",
         "year":"2022",
         "content":"2022 - second tour ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-stg/2022-second-tour.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2022-second-tour.pdf"
     },
     {
         "id": 12,
-        "title": "stg",
+        "title": "sg",
         "year":"2022",
         "content":"2022 - second tour - Corrigé ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-stg/2022-second-tour-corrigé.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2022-second-tour-corrigé.pdf"
     },
     {
         "id": 13,
-        "title": "stg",
+        "title": "sg",
         "year":"2023",
         "content":"2023",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-stg/2023.pdf"
+        "pdfURL": "/pdfs/serie-sg/Série-SG 2023.pdf"
     }
     ,
     {
         "id": 14,
-        "title": "stg",
+        "title": "sg",
         "year":"2023",
         "content":"2023 - corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-stg/2023-corrigé.pdf"
+        "pdfURL": "/bientot-disponible.png"
     }
     
 

@@ -7,7 +7,7 @@ import Error401Page from "../pages/errors/error-401";
 import Serie from "../components/series-pages/serie-s/serie";
 import SerieEs from "../components/series-pages/serie-s/serieEs";
 import SerieL from "../components/series-pages/serie-s/serieL";
-import SerieStg from "../components/series-pages/serie-s/serieStg";
+import SerieSg from "../components/series-pages/serie-s/serieSg";
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
         element: <SerieEs />,
       },
       {
-        path: "series/stg",
-        element: <SerieStg />,
+        path: "series/sg",
+        element: <SerieSg />,
       },
       {
         path: "series/l",

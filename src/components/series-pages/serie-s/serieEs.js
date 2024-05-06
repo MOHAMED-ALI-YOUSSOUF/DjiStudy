@@ -40,7 +40,7 @@ const SerieEs = () => {
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
         Série
-        <span className="text-secondary"> Es</span>
+        <span className="text-secondary"> Es - Math</span>
       </h1>
       <hr />
       <div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./hero.scss";
 import { Link } from "react-router-dom";
 const Hero = () => {
@@ -21,8 +21,8 @@ const Hero = () => {
     },
     {
       index: 4,
-      title: "Terminale STG",
-      serie: "STG",
+      title: "Terminale SG",
+      serie: "SG",
     },
   ];
 
@@ -35,7 +35,7 @@ const Hero = () => {
               Avec <span>DjibStudy</span>
               <p>
                 {" "}
-                Réviser pour votre Bac
+                Réviser les mathématiques pour votre Bac
                 <span className="text-secondary"> Gratuitement.</span>
               </p>
             </div>
@@ -45,10 +45,11 @@ const Hero = () => {
             </div>
             <div className="d-flex flex-wrap justify-content-center ">
               {series.map((serie) => (
-                <Link to={`/series/${serie.serie.toLowerCase()}`}  key={serie.index}>
-                  <div
-                    className="d-flex  align-items-center mb-3 "
-                  >
+                <Link
+                  to={`/series/${serie.serie.toLowerCase()}`}
+                  key={serie.index}
+                >
+                  <div className="d-flex  align-items-center mb-3 ">
                     <button className="btn btn-outline-secondary    text-dark me-3">
                       {serie.title}
                     </button>
