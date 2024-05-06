@@ -11,7 +11,7 @@ const Serie = ({ serieType }) => {
   const [selectedSerie, setSelectedSerie] = useState(null);
   const pdfRef = useRef(null);
   const { slug } = useParams();
-  
+
   const filterSeries = (title) => {
     const filtered = year.filter((serie) => serie.year === title);
     setFilteredSeries(filtered);
@@ -32,7 +32,6 @@ const Serie = ({ serieType }) => {
     { title: "2021", filter: "2021" },
     { title: "2022", filter: "2022" },
     { title: "2023", filter: "2023" },
-
   ];
 
   return (
@@ -42,7 +41,7 @@ const Serie = ({ serieType }) => {
         <span className="text-secondary">{`{${slug.toUpperCase()}}`}</span>
       </h1>
       <hr />
-      <div >
+      <div>
         <div className="d-flex gap-3  flex-wrap justify-content-center">
           {buttonsData.map((button, index) => (
             <Button
@@ -61,14 +60,18 @@ const Serie = ({ serieType }) => {
         {filteredSeries.length > 0 &&
           filteredSeries.map((serie) => (
             <Col sm={6} key={serie.id} className="shadow text-center">
-              <div onClick={() => handleSerieClick(serie)} className="serie-card-button"> 
+              <div
+                onClick={() => handleSerieClick(serie)}
+                className="serie-card-button"
+              >
                 <SerieCard {...serie} />
               </div>
             </Col>
           ))}
       </Row>
       <div ref={pdfRef}>
-      {selectedSerie && <Subject pdfURL={selectedSerie.pdfURL} />}</div>
+        {selectedSerie && <Subject pdfURL={selectedSerie.pdfURL} />}
+      </div>
     </Container>
   );
 };
