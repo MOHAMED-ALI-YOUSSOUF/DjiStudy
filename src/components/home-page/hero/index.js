@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
             <div className="d-flex flex-wrap justify-content-center ">
               {series.map((serie) => (
-                <Link to={`/series/${serie.serie}`}  key={serie.index}>
+                <Link to={`/series/${serie.serie.toLowerCase()}`}  key={serie.index}>
                   <div
                     className="d-flex  align-items-center mb-3 "
                   >

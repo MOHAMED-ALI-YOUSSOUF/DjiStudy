@@ -5,6 +5,9 @@ import HomePage from "../pages/home-page";
 import Error404Page from "../pages/errors/error-404";
 import Error401Page from "../pages/errors/error-401";
 import Serie from "../components/series-pages/serie-s/serie";
+import SerieEs from "../components/series-pages/serie-s/serieEs";
+import SerieL from "../components/series-pages/serie-s/serieL";
+import SerieStg from "../components/series-pages/serie-s/serieStg";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +20,20 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "series/:slug",
+        path: "series/s",
         element: <Serie />,
+      },
+      {
+        path: "series/es",
+        element: <SerieEs />,
+      },
+      {
+        path: "series/stg",
+        element: <SerieStg />,
+      },
+      {
+        path: "series/l",
+        element: <SerieL />,
       },
 
       {

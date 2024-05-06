@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import year from "../../../helpers/data/year.json";
+import yearEs from "../../../helpers/data/year-es.json"; // Vérifiez ce chemin
+// console.log(year)
 // import { useParams } from "react-router-dom";
 import SerieCard from "./serie-card";
 import Subject from "./subject";
 import { useRef } from "react";
 
-const Serie = ({ serieType }) => {
+const SerieEs = () => {
   const [filteredSeries, setFilteredSeries] = useState([]);
   const [selectedSerie, setSelectedSerie] = useState(null);
   const pdfRef = useRef(null);
   // const { slug } = useParams();
 
   const filterSeries = (title) => {
-    const filtered = year.filter((serie) => serie.year === title);
+    const filtered = yearEs.filter((serie) => serie.year === title );
     setFilteredSeries(filtered);
   };
+  
 
   const handleSerieClick = (serie) => {
     setSelectedSerie(serie);
@@ -24,21 +26,21 @@ const Serie = ({ serieType }) => {
 
   useEffect(() => {
     // Filtrer la première série par défaut
-    filterSeries("s");
+    filterSeries("2020");
   }, []);
 
   const buttonsData = [
-    { title: "2020", filter: "2020" },
+    { title: "2020", filter: "2020"  },
     { title: "2021", filter: "2021" },
     { title: "2022", filter: "2022" },
-    { title: "2023", filter: "2023" },
+    { title: "2023", filter: "2023"},
   ];
 
   return (
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
-      Série
-        <span className="text-secondary"> S</span>
+        Série
+        <span className="text-secondary"> Es</span>
       </h1>
       <hr />
       <div>
@@ -76,4 +78,4 @@ const Serie = ({ serieType }) => {
   );
 };
 
-export default Serie;
+export default SerieEs;

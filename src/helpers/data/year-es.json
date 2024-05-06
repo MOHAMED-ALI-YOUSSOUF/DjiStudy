@@ -1,117 +1,118 @@
 [
     {
         "id": 1,
-        "title": "s",
+        "title": "es",
         "year":"2020",
         "content": "2020",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-s/2020.pdf"
+        "pdfURL": "/pdfs/serie-es/2020.pdf"
     },
     {
         "id": 2,
-        "title": "s",
+        "title": "es",
         "year":"2020",
         "content":"2020 - Corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "/pdfs/serie-s/2020-2e-tour.pdf"
+        "pdfURL": "/pdfs/serie-es/2020-corrigé.pdf"
     },
     {
         "id": 3,
-        "title": "s",
+        "title": "es",
         "year":"2020",
         "content":"2020-second tour",
         "image": "course-02.jpg",
-        "pdfURL": "/pdfs/serie-s/2020-2e-tour.pdf"
+        "pdfURL": "/pdfs/serie-es/2020-second-tour.pdf"
     },
     {
         "id": 4,
-        "title": "s",
+        "title": "es",
         "year":"2020",
         "content":"2020 - second tour - Corrigé",
         "image": "course-02.jpg",
-        "pdfURL": "/pdfs/serie-s/2020-2e-tour.pdf"
+        "pdfURL": "pdfs/serie-es/2020-second-tour-corrigé.pdf"
     },
     {
         "id": 5,
-        "title": "s",
+        "title": "es",
         "year":"2021",
         "content":"2021",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-s/2021.pdf"
+        "pdfURL": "/pdfs/serie-es/2021.pdf"
     },
     {
         "id": 6,
-        "title": "s",
+        "title": "es",
         "year":"2021",
         "content":"2021 - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-s/2021.pdf"
+        "pdfURL": "/pdfs/serie-es/2021-corrigé.pdf"
     },
     {
         "id": 7,
-        "title": "s",
+        "title": "es",
         "year":"2021",
         "content":"2021 - second tour ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-s/2021-2e-tour.pdf"
+        "pdfURL": "/pdfs/serie-es/2021-second-tour.pdf"
     },
     {
         "id": 8,
-        "title": "s",
+        "title": "es",
         "year":"2021",
         "content":"2021 - second tour - Corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-s/2021.pdf"
+        "pdfURL": "/pdfs/serie-es/2021-second-tour-corrigé.pdf"
     },
     {
         "id": 9,
-        "title": "s",
+        "title": "es",
         "year":"2022",
         "content":"2022",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-s/2022.pdf"
+        "pdfURL": "/pdfs/serie-es/2022.pdf"
     },
     {
         "id": 10,
-        "title": "s",
+        "title": "es",
         "year":"2022",
         "content":"2022 - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/2022-corrige.pdf"
+        "pdfURL": "/pdfs/serie-es/2022-corrigé.pdf"
     },
     {
         "id": 11,
-        "title": "s",
+        "title": "es",
         "year":"2022",
         "content":"2022 - second tour ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-s/2022-2e-tour.pdf"
+        "pdfURL": "/pdfs/serie-es/2022-second-tour.pdf"
     },
     {
         "id": 12,
-        "title": "s",
+        "title": "es",
         "year":"2022",
         "content":"2022 - second tour - Corrigé ",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-s/2022-2e-tour-corrige.pdf"
+        "pdfURL": "/pdfs/serie-es/2022-second-tour-corrigé.pdf"
     },
     {
         "id": 13,
-        "title": "s",
+        "title": "es",
         "year":"2023",
         "content":"2023",
         "image": "course-03.jpg",
-        "pdfURL": "/pdfs/serie-s/2023.pdf"
+        "pdfURL": "/pdfs/serie-es/2023.pdf"
     }
     ,
     {
         "id": 14,
-        "title": "s",
+        "title": "es",
         "year":"2023",
         "content":"2023 - corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/pdfs/serie-s/2023-corrige.pdf"
+        "pdfURL": "/pdfs/serie-es/2023-corrigé.pdf"
     }
     
+
     
 ]

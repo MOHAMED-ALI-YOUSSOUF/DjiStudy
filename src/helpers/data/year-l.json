@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "title": "l",
+        "year":"2020",
+        "content": "2020 - pratique",
+        "image": "course-01.jpg",
+        "pdfURL": "/pdfs/serie-l/2020-pratique.pdf"
+    },
+    {
+        "id": 2,
+        "title": "l",
+        "year":"2020",
+        "content":"2020 - pratique - corrigé",
+        "image": "course-01.jpg",
+        "pdfURL": "/pdfs/serie-l/2020-pratique-corrigé.pdf"
+    },
+    {
+        "id": 3,
+        "title": "l",
+        "year":"2020",
+        "content":"2020 - pratique-1",
+        "image": "course-01.jpg",
+        "pdfURL": "/pdfs/serie-l/2020-pratique-1.pdf"
+    },
+    {
+        "id": 4,
+        "title": "l",
+        "year":"2020",
+        "content":"2020 - pratique-1 - corrigé",
+        "image": "course-01.jpg",
+        "pdfURL": "/pdfs/serie-l/2020-pratique-1-corrigé.pdf"
+    },
+    {
+        "id": 5,
+        "title": "l",
+        "year":"2020",
+        "content":"2020 - second tour ",
+        "image": "course-02.jpg",
+        "pdfURL": "/pdfs/serie-l/2020-second-tour.pdf"
+    },
+    {
+        "id": 6,
+        "title": "l",
+        "year":"2020",
+        "content":"2020 - second tour - corrigé",
+        "image": "course-02.jpg",
+        "pdfURL": "pdfs/serie-l/2020-second-tour-corrigé.pdf"
+    },
+    {
+        "id": 7,
+        "title": "l",
+        "year":"2021",
+        "content":"2021 - pratique",
+        "image": "course-03.jpg",
+        "pdfURL": "/pdfs/serie-l/2021-pratique.pdf"
+    },
+    {
+        "id": 8,
+        "title": "l",
+        "year":"2021",
+        "content":"2021 - pratique - Corrigé",
+        "image": "course-03.jpg",
+        "pdfURL": "/pdfs/serie-l/2021-pratique-corrigé.pdf"
+    },
+    {
+        "id": 9,
+        "title": "l",
+        "year":"2021",
+        "content":"2021 - pratique-1 ",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2021-pratique-1r.pdf"
+    },
+    {
+        "id": 10,
+        "title": "l",
+        "year":"2021",
+        "content":"2021 - second tour ",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2021-second-tour.pdf"
+    },
+    {
+        "id": 11,
+        "title": "l",
+        "year":"2021",
+        "content":"2021 - second tour - corrigé",
+        "image": "course-03.jpg",
+        "pdfURL": "/pdfs/serie-l/2021-second-tour-corrigé.pdf"
+    },
+    {
+        "id": 12,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 - pratique",
+        "image": "course-03.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-pratique.pdf"
+    },
+    {
+        "id": 13,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 - pratique - corrigé ",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-pratique-corrigé.pdf"
+    },
+    {
+        "id": 14,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 - pratique-1  ",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-pratique-1.pdf"
+    },
+    {
+        "id": 15,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 pratique-1 - corrigé",
+        "image": "course-03.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-pratique-1-corrigé.pdf"
+    }
+    ,
+    {
+        "id": 16,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 - second tour",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-second-tour.pdf"
+    }
+    ,
+    {
+        "id": 17,
+        "title": "l",
+        "year":"2022",
+        "content":"2022 - second tour - corrigé",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2022-second-tour-corrigé.pdf"
+    }
+    ,
+    {
+        "id": 18,
+        "title": "l",
+        "year":"2023",
+        "content":"2023 - pratique",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2023-pratique.pdf"
+    }
+    ,
+    {
+        "id": 19,
+        "title": "l",
+        "year":"2023",
+        "content":"2023 - pratique - corrigé",
+        "image": "course-04.jpg",
+        "pdfURL": "/pdfs/serie-l/2023-pratique-corrigé.pdf"
+    }
+    
+
+    
+]

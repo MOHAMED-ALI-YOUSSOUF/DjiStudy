@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import year from "../../../helpers/data/year.json";
+import yearL from "../../../helpers/data/year-l.json";
 // import { useParams } from "react-router-dom";
 import SerieCard from "./serie-card";
 import Subject from "./subject";
 import { useRef } from "react";
 
-const Serie = ({ serieType }) => {
+const SerieL = () => {
   const [filteredSeries, setFilteredSeries] = useState([]);
   const [selectedSerie, setSelectedSerie] = useState(null);
   const pdfRef = useRef(null);
   // const { slug } = useParams();
 
   const filterSeries = (title) => {
-    const filtered = year.filter((serie) => serie.year === title);
+    const filtered = yearL.filter((serie) => serie.year === title);
     setFilteredSeries(filtered);
   };
 
@@ -24,7 +24,7 @@ const Serie = ({ serieType }) => {
 
   useEffect(() => {
     // Filtrer la première série par défaut
-    filterSeries("s");
+    filterSeries("2020");
   }, []);
 
   const buttonsData = [
@@ -37,8 +37,8 @@ const Serie = ({ serieType }) => {
   return (
     <Container>
       <h1 className="text-center fw-bold mb- fs-lg-1 ">
-      Série
-        <span className="text-secondary"> S</span>
+        Série
+        <span className="text-secondary"> L</span>
       </h1>
       <hr />
       <div>
@@ -76,4 +76,4 @@ const Serie = ({ serieType }) => {
   );
 };
 
-export default Serie;
+export default SerieL;
