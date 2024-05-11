@@ -14,7 +14,7 @@ const Series = () => {
 
   useEffect(() => {
     // Filtrer la première série par défaut
-    filterSeries("s");
+    filterSeries("");
   }, []);
 
   const buttonsData = [

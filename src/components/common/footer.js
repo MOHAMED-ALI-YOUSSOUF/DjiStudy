@@ -4,6 +4,7 @@ import "./footer.scss";
 import { Link } from "react-router-dom";
 import { CiFacebook } from "react-icons/ci";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { config } from "../../helpers/config";
 const Footer = () => {
   return (
     <footer className="bg-secondary py-5">
@@ -21,9 +22,11 @@ const Footer = () => {
             </Link>
             <div className="d-flex gap-2">
               {" "}
+              <a href={config.contact.socialMedia.facebook}>
               <button className="btn btn-outline-dark text-white">
                 <CiFacebook />
-              </button>
+                
+              </button></a>
               <button className="btn btn-outline-dark text-white" >
                 <BsInstagram />
               </button>

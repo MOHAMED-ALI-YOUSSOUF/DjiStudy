@@ -13,7 +13,7 @@
         "year":"2020",
         "content":"2020 - Corrigé",
         "image": "course-01.jpg",
-        "pdfURL": "/bientot-disponible.png"
+        "pdfURL": "/pdfs/serie-es/Série-ES 2020-corrigé.pdf"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "year":"2020",
         "content":"2020 - second tour - Corrigé",
         "image": "course-02.jpg",
-        "pdfURL": "/bientot-disponible.png"
+        "pdfURL": "/pdfs/serie-es/Série-ES 2020-second-tour-corrigé.pdf"
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "year":"2021",
         "content":"2021 - Corrigé",
         "image": "course-03.jpg",
-        "pdfURL": "/bientot-disponible.png"
+        "pdfURL": "/pdfs/serie-es/Série-ES 2021-corrigé.pdf"
     },
     {
         "id": 7,
@@ -55,14 +55,7 @@
         "image": "course-04.jpg",
         "pdfURL": "/pdfs/serie-es/Série-ES 2021-second-tour.pdf"
     },
-    {
-        "id": 8,
-        "title": "es",
-        "year":"2021",
-        "content":"2021 - second tour - Corrigé",
-        "image": "course-04.jpg",
-        "pdfURL": "/bientot-disponible.png"
-    },
+  
     {
         "id": 9,
         "title": "es",
@@ -110,7 +103,7 @@
         "year":"2023",
         "content":"2023 - corrigé",
         "image": "course-04.jpg",
-        "pdfURL": "/bientot-disponible.png"
+        "pdfURL": "/pdfs/serie-es/Série-ES 2023-corrigé.pdf"
     }
     
 

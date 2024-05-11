@@ -24,7 +24,7 @@ const Serie = ({ serieType }) => {
 
   useEffect(() => {
     // Filtrer la première série par défaut
-    filterSeries("2020");
+    filterSeries("202");
   }, []);
 
   const buttonsData = [
